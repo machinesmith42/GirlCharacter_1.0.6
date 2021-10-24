@@ -1,0 +1,55 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 16. 06. 2020
+  Bugfix:
+    - Fixed that corpse of default character would be used instead of the Gear Girl corpse.
+  Changes:
+    - Won't overwrite the default character anymore if a known character-selector mod is active.
+    - "minime >= 0.0.14", "RitnCharacter > 0.0.3" and "CharSelect >= 0.18.1" will be automatically registered as known character-selector mods. The current version of "RitnCharacter" (0.0.3) is not yet recognized, so unless another of the above mods unlocks the new behavior, "GearGirlCharacter" should work with "RitnCharacter" as before!
+  Locale:
+    - Localized name/description of character and corpse. That's needed for minime, which allows to select a character by name.
+  Credits:
+    - Thanks to Pi-C on the Factorio mods website for coding this compability update!
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 16. 06. 2020
+  Bugfix:
+    - Fixed loq quality incorrect size.
+  Changes:
+    - Updated to Factorio 1.0
+    - Rewrote some text
+    - General cleanup
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 22. 01. 2020
+  Bugfix:
+    - Fixed a crash while using low quality sprites because of one missing image.
+  Changes:
+    - Re-organized the files more neatly
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 22. 01. 2020
+  Bugfix:
+    - Fixed the changelog format.
+  Changes:
+    - Updated the thumbnail.
+    - Edited mod description.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 21. 01. 2020
+  Bugfix:
+    - Fixed a compability mistake on info.json
+  Changes:
+    - Added a changelog.
+        - Removed unused files left in the mod when updating to 0.18
+        - Zip file size halved.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 21. 01. 2020
+  Update:
+    - Updated to work with Factorio 0.18
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0 - First public release
+Date: 21. 01. 2020
+  Changes:
+    - Initial release.
